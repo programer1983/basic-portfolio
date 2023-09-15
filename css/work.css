@@ -18,10 +18,21 @@
 
 .work__item {
     padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.work__item__image {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
 .work__item__img {
-    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+.work__item__img:hover {
+    transform: scale(1.1);
 }
 
 .work__text {
