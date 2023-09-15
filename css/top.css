@@ -1,0 +1,37 @@
+.top {
+    background-color: rgb(35, 35, 56);
+    padding: 100px 0;
+}
+
+.top__inner {
+    display: flex;
+    align-items: center;
+}
+
+.top__content {
+    flex-basis: 50%;
+}
+
+.top__title {
+    color: var(--whiteColor);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.top__text p {
+    color: var(--whiteColor);
+    font-size: 30px;
+}
+
+.top__image {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.top__image img {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
