@@ -1,5 +1,5 @@
 .contact {
-    background-color: var(--blackColor);
+    background-color: #120435;
     padding: 100px 0;
 }
 
@@ -16,7 +16,6 @@
     row-gap: 20px;
     max-width: 600px;
     margin: 0 auto;
-    background-color: rgba(192, 184, 184, 0.725);
     padding: 20px;
     border-radius: 20px;
 }
