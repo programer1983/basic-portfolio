@@ -1,0 +1,48 @@
+.header {
+    background-color: rgb(10, 10, 57);
+    padding: 25px 0px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    column-gap: 150px;
+}
+
+.header__link {
+    font-size: 18px;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
+.header__icon__img {
+    width: 20px;
+    height: 20px;
+}
+
+.header__phone {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header__icon {
+    background-color: var(--whiteColor);
+    border-radius: 5px;
+}
+
+.header__phone span {
+    color: var(--whiteColor);
+    font-size: 18px;
+}
+
+.header__phone span:hover {
+    text-decoration: underline;
+}
