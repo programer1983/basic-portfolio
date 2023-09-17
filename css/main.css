@@ -9,6 +9,7 @@
 }
 
 body {
+    background-color: var(--blackColor);
     color: var(--blackColor);
     line-height: var(--lineHaight);
     font-weight: var(--fontWeight);
