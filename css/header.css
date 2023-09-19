@@ -99,6 +99,10 @@
     transform: rotate(45deg) translate(0, 50%);
 }
 
+.unscroll{
+    overflow: hidden;
+}
+
 @media (max-width: 1100px) {
     .header__inner {
         justify-content: space-around;
@@ -141,7 +145,6 @@
         row-gap: 50px;
         transition: all 0.5s ease;
         z-index: 1;
-        overflow-y: auto;
     }
 
     .header__link {

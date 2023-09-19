@@ -9,3 +9,15 @@ function open(){
     headerburger.classList.toggle("active")
     headerlist.classList.toggle("open-burger")
 }
+
+
+
+let html = document.querySelector("html")
+const burger = document.querySelector(".header__burgrer")
+
+burger.addEventListener("click", burgerscroling)
+
+function burgerscroling(){
+    html.classList.toggle("unscroll")
+}
+
