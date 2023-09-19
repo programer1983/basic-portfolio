@@ -51,3 +51,17 @@
     transform: scale(1.1);
 }
 
+@media (max-width: 1300px){
+    .contact {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 1000px){
+    .contact {
+        padding: 20px 0;
+    }
+}
+
+
+
