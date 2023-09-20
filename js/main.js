@@ -11,6 +11,12 @@ function open(){
 }
 
 
+headerlist.querySelectorAll(".header__link").forEach(link => {
+    link.addEventListener("click", () => {
+        headerlist.classList.remove("open-burger")
+    })
+})
+
 
 let html = document.querySelector("html")
 const burger = document.querySelector(".header__burgrer")

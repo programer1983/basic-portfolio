@@ -6,6 +6,7 @@
     --lineHaight: 1.2;
     --fontWeight: 400;
     --fontFomily: 'Inter', sans-serif;
+    --hidden: hidden;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     line-height: var(--lineHaight);
     font-weight: var(--fontWeight);
     font-family: var(--fontFomily);
+    /* overflow-x: var(--hidden); */
 }
 
 .container {
