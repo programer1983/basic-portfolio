@@ -15,7 +15,6 @@ body {
     line-height: var(--lineHaight);
     font-weight: var(--fontWeight);
     font-family: var(--fontFomily);
-    /* overflow-x: var(--hidden); */
 }
 
 .container {
@@ -26,5 +25,9 @@ body {
 
 a {
     color: var(--whiteColor);
+}
+
+.unscroll{
+    overflow: hidden;
 }
 
