@@ -161,12 +161,12 @@
         <section class="contact">
             <div class="container">
                 <h2 class="contact__title">Напишіть мені</h2>
-                <form action="./mail.php" method="POST" class="contact__form" id="contact" data-aos="fade-down">
-                    <input type="text" name="user_name" placeholder="Name">
-                    <input type="text" name="user_phone" placeholder="Phone">
-                    <textarea placeholder="Text"></textarea>
-                    <button type="submit">Submit</button>
-                </form>
+                <div class="contact__form" id="contact" data-aos="fade-down">
+                    <input type="text" id="user_name" placeholder="Name">
+                    <input type="text" id="user_email" placeholder="Email">
+                    <textarea id="message" placeholder="Message"></textarea>
+                    <button onclick="sendMail();">Submit</button>
+                </div>
             </div>
         </section>
     </main>
@@ -199,9 +199,9 @@
         </footer>
 
     
-
-    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/emailjs.js"></script>
 </body>
 </html>
