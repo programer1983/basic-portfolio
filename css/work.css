@@ -1,5 +1,5 @@
 .work {
-    padding: 100px 0;
+    padding-top: 20px;
 }
 
 .work__title {
@@ -51,6 +51,12 @@
 @media (max-width: 1000px){
     .work  {
         padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 900px){
+    .work  {
+        padding-top: 50px;
     }
 }
 
