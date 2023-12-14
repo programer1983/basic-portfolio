@@ -41,12 +41,6 @@
     }
 }
 
-/* @media (max-width: 700px){
-    .top {
-        background-position: bottom; 
-    }
-} */
-
 @media (max-width: 610px){
     .top {
         height: 400px;
