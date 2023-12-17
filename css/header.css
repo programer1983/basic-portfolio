@@ -5,6 +5,11 @@
     padding: 25px 0px;
     background-color: rgba(0, 0, 0, 0.703);
     z-index: 1;
+    transition: transform .1s linear;
+}
+
+.header.hide {
+    transform: translateY(-70px);
 }
 
 .header__inner {
