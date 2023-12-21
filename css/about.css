@@ -7,6 +7,14 @@
     text-align: center;
     font-size: 40px;
     margin-bottom: 50px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.about__title.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .about__content {
@@ -23,14 +31,39 @@
     height: 300px;
 }
 
+.about__descs {
+    display: flex;
+    flex-direction: column;
+}
+
 .about__desc {
     flex-basis: 50%;
     color: var(--whiteColor);
     font-size: 20px;
     line-height: 1.5;
     letter-spacing: 2px;
+    transform: translate(0px, 20%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 }
 
+.about__desc.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    transition: all 0.8s ease 0.4s;
+}
+
+.anim__show {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.anim__show.active, 
+.active .anim__show {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
 
 @media (max-width: 1110px){
     .about {
